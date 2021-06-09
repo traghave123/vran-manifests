@@ -25,7 +25,7 @@ metadata:
 spec:
   channel: "4.7"
   installPlanApproval: Automatic
-  startingCSV: local-storage-operator.4.6.0-202104221811.p0
+  startingCSV: local-storage-operator.4.7.0-202105210300.p0
   name: local-storage-operator
   # Modify source name of the catalogsource for isolated network deployments
   source: redhat-operators

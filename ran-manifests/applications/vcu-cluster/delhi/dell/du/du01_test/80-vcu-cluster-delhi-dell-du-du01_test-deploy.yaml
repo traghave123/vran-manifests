@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cluster-vcu-cluster-delhi-du-du01-test-deploy
+  name: cluster-vcu-cluster-delhi-du-du01_test-deploy
   namespace: openshift-gitops
   annotations:
     argocd.argoproj.io/sync-wave: '80'
@@ -17,7 +17,7 @@ spec:
   source:
     repoURL: 'https://github.com/traghave123/vran-manifests.git'
     targetRevision: HEAD
-    path: ran-manifests/manifests/vcu-cluster/delhi/dell/du/du01-test
+    path: ran-manifests/manifests/vcu-cluster/delhi/dell/du/du01_test
     directory:
       recurse: false
   # Sync policy

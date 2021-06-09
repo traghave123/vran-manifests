@@ -7,4 +7,4 @@ kind: Kustomization
 
 # Apps of Apps
 resources:
-  - 80-vcu-cluster-delhi-dell-du-du01-test-deploy.yaml
+  - 80-vcu-cluster-delhi-dell-du-du01_test-deploy.yaml

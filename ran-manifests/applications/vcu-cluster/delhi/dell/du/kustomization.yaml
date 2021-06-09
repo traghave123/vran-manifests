@@ -3,7 +3,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 bases:
-  - ./du01_test  
+  - ./du01-test  
 
 resources:
   - 40-vcu-cluster-delhi-dell-du.yaml  

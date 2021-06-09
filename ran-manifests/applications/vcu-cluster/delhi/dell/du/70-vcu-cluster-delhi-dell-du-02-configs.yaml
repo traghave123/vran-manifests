@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cluster-vcu-cluster-delhi-du-02-configs
+  name: cluster-cu-du-cluster-qa-new-bangalore-du-qa-du-deploy-002-deploy
   namespace: openshift-gitops
   annotations:
     argocd.argoproj.io/sync-wave: '70'

@@ -1,0 +1,25 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: registry-pod2-certs-bangalore-cu
+  namespace: altiostar-4g-cu-bangalore
+data:
+  domain.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIGIjCCBAqgAwIBAgIUFxW5j0uTmRALVOQOzJimmob7cTAwDQYJKoZIhvcNAQEL
+    BQAwgYYxCzAJBgNVBAYTAklOMRIwEAYDVQQIDAlrYXJuYXRha2ExEjAQBgNVBAcM
+    CWJhbmdhbG9yZTESMBAGA1UECgwJYWx0aW9zdGFyMQwwCgYDVQQLDANlbmcxLTAr
+    BgNVBAMMJGNhc3Rvci1yZWdpc3RyeS5jYXN0b3IuYWx0aW9zdGFyLmxhbjAeFw0y
+    MTAxMjExNTQ3NDNaFw0yMjAxMjExNTQ3NDNaMIGGMQswCQYDVQQGEwJJTjESMBAG
+    A1UECAwJa2FybmF0YWthMRIwEAYDVQQHDAliYW5nYWxvcmUxEjAQBgNVBAoMCWFs
+    dGlvc3RhcjEMMAoGA1UECwwDZW5nMS0wKwYDVQQDDCRjYXN0b3ItcmVnaXN0cnku
+    Y2FzdG9yLmFsdGlvc3Rhci5sYW4wggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIK
+    AoICAQCpZdaaqBnwH+dPGyO8fNSPNCbq4pT1sDMkOw7+hXyyRqo6jhD+mpJAyrVu
+    47mcLUggicmW3UB9CCqwvs21owvrYC7Mzat/awT9XjrpiwJiYz+CvogL5oTuxvA2
+    cpboBrDD20L/i4PPZ6DQUWJl6Ior9tuo/s7jb3KWws6yEA3Qmb+6ErI9jkC+TTqw
+    OV23OesLGShSJxHoMidusBqDKpYSFKamIaDocVJarbGedHLC9jHp75rtM1psrm24
+    NkzPynoh4DjBjXIRX5qPavvAon0bgjxzWHH3TOZ3xyVRHBK1kkDL+uRhpD/Vvvi+
+    QjLDKNWLRqSjXlx5mMnbe5eGbpyAJB8VlAE0gFyLX4259vgKuv3lIf3G+5xtIEUR
+    xWdS3rQ1pPScLLJO4Xvvcsp6aQAq/UldwZNfHasFwMZ/PXwPTpeazvg8zBhVMzVL
+    zj11G 

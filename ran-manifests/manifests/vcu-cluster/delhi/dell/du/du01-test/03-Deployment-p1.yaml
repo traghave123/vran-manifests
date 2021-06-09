@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: 4glte-du01_test-delhi-p1
+  name: 4glte-du01-test-delhi-p1
   namespace: altiostar-4g-du-delhi
   labels:
     node-role.kubernetes.io/ran-du-delhi-server-profile-du-dell00: ""

@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: registry-pod2-certs-vizag-cu
+  namespace: altiostar-4g-cu-vizag
+data:
+  domain.crt: |
+    domain_cert 

@@ -1,9 +1,0 @@
----
-apiVersion: v1
-data:
-  mgmtcluster-registry-quay-quay-enterprise.apps.testmanagement.altiostar.lan..443: |
-    "testcert"
-kind: ConfigMap
-metadata:
-  name: "quay-testmanagement-config"
-  namespace: openshift-config

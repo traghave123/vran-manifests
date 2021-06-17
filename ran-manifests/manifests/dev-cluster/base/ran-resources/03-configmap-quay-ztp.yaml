@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+data:
+  mgmtcluster-registry-quay-quay-enterprise.apps.ztp.altiostar.lan..443: |
+    "testcert"
+kind: ConfigMap
+metadata:
+  name: "quay-ztp-config"
+  namespace: openshift-config

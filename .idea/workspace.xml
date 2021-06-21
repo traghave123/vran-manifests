@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="903532a9-9ebf-4bd9-ae45-ee92a3b2425d" name="Default Changelist" comment="" />
+    <list default="true" id="903532a9-9ebf-4bd9-ae45-ee92a3b2425d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +11,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\KiranKumarHN\Documents\GitHub\vran-manifests\.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1tveB7TUfd73TugPAvb3886Mw9l" />
   <component name="ProjectViewState">
@@ -18,7 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/kiran/telco/repos/rhacm-automation" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -34,9 +43,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1623689047524">
+    <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1624172013412">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="188" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1623689047524" />
+    <state x="580" y="188" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1624172013412" />
   </component>
 </project>

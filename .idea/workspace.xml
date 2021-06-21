@@ -3,6 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="903532a9-9ebf-4bd9-ae45-ee92a3b2425d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/applications/cu-du-cluster-qa-new/10-cu-du-cluster-qa-new.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/applications/cu-du-cluster-qa-new/20-cu-du-cluster-qa-new-sriovconfig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/applications/cu-du-cluster-qa-new/30-cu-du-cluster-qa-new-ptpconfig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/applications/cu-du-cluster-qa-new/bangalore/supermicro/du/40-cu-du-cluster-qa-new-bangalore-supermicro-du.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/applications/cu-du-cluster-qa-new/bangalore/supermicro/du/50-cu-du-cluster-qa-new-bangalore-supermicro-du-00-pre.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/applications/cu-du-cluster-qa-new/bangalore/supermicro/du/60-cu-du-cluster-qa-new-bangalore-supermicro-du-01-post.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/applications/cu-du-cluster-qa-new/bangalore/supermicro/du/70-cu-du-cluster-qa-new-bangalore-supermicro-du-02-configs.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/applications/cu-du-cluster-qa-new/bangalore/supermicro/du/kustomization.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/applications/cu-du-cluster-qa-new/bangalore/supermicro/du/sm-du-1/80-cu-du-cluster-qa-new-bangalore-supermicro-du-sm-du-1-deploy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/applications/cu-du-cluster-qa-new/bangalore/supermicro/du/sm-du-1/kustomization.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/applications/cu-du-cluster-qa-new/kustomization.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/manifests/cu-du-cluster-qa-new/bangalore/supermicro/du/sm-du-1/00-hook-mcp-wait-job-bangalore.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/manifests/cu-du-cluster-qa-new/bangalore/supermicro/du/sm-du-1/00-hook-sriovnodepolicy-wait-job-bangalore.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/manifests/cu-du-cluster-qa-new/bangalore/supermicro/du/sm-du-1/00-scc-privileged-job-bangalore.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/manifests/cu-du-cluster-qa-new/bangalore/supermicro/du/sm-du-1/01-Namespace.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/manifests/cu-du-cluster-qa-new/bangalore/supermicro/du/sm-du-1/02-ConfigMap-Common.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/manifests/cu-du-cluster-qa-new/bangalore/supermicro/du/sm-du-1/02-ConfigMap-InitScripts.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/manifests/cu-du-cluster-qa-new/bangalore/supermicro/du/sm-du-1/02-ConfigMap-ProvIni-p1.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/manifests/cu-du-cluster-qa-new/bangalore/supermicro/du/sm-du-1/03-Deployment-p1.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ran-manifests/manifests/cu-du-cluster-qa-new/bangalore/supermicro/du/sm-du-1/kustomization.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

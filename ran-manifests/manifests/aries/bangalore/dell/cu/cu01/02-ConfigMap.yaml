@@ -5,8 +5,8 @@ metadata:
   name: registry-pod2-certs-bangalore-cu
   namespace: altiostar-4g-cu01-bangalore
 data:
-   domain.crt: |
-        -----BEGIN CERTIFICATE-----
+  domain.crt: |
+    -----BEGIN CERTIFICATE-----
     MIIDjzCCAnegAwIBAgIBATANBgkqhkiG9w0BAQsFADBpMWcwZQYDVQQDDF52cmFu
     LXF1YXktcmVnaXN0cnktcXVheS1vcGVuc2hpZnQtb3BlcmF0b3JzLmFwcHMubWdt
     dGNsdXN0ZXIucnRwLnJhbGVpZ2guaWJtLmNvbS1jYUAxNjIzMzM2MzQxMB4XDTIx

@@ -13,6 +13,6 @@ metadata:
     app: containerized-data-importer
 type: Opaque
 data:
-  accessKeyId: dnJhbmFkbWlu
-  secretKey: cGFzc3dvcmQ=
+  accessKeyId: "dnJhbmFkbWlu"
+  secretKey: "cGFzc3dvcmQ="
   

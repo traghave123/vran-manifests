@@ -49,7 +49,6 @@ spec:
         - name: ani-4g-du1
           image: vran-quay-registry-quay-openshift-operators.apps.mgmtcluster.rtp.raleigh.ibm.com/olmlocal/hello-openshift:latest
           imagePullPolicy: IfNotPresent
-          command: ["bash","-c","/opt/ani/helm/entrypoint.sh","while true; do sleep 1000; done"]
           envFrom:
             - configMapRef:
                 name: 4glte-du-mysore-cm

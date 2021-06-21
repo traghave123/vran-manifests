@@ -3,7 +3,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: registry-pod2-certs-bangalore-cu
-  namespace: altiostar-4g-cu01-bangalore
+  namespace: altiostar-4g-cu-bangalore
 data:
   domain.crt: |
     -----BEGIN CERTIFICATE-----

@@ -13,6 +13,6 @@ metadata:
     app: containerized-data-importer
 type: Opaque
 data:
-  accessKeyId: vranadmin
-  secretKey: password
+  accessKeyId: dnJhbmFkbWlu
+  secretKey: cGFzc3dvcmQ=
   

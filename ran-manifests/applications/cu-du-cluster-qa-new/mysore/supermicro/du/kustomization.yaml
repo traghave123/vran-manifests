@@ -4,6 +4,8 @@ kind: Kustomization
 
 bases:
   - ./sm-du-1  
+  - ./sm-du-2  
+  - ./sm-du-3  
 
 resources:
   - 40-cu-du-cluster-qa-new-mysore-supermicro-du.yaml  

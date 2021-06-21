@@ -1,0 +1,10 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+#bases:
+#  - hooks/
+
+# Apps of Apps
+resources:
+  - 80-cu-du-cluster-qa-new-bangalore-supermicro-du-sm-du-1-deploy.yaml

@@ -5,7 +5,7 @@ metadata:
   labels:
     kubevirt.io/vm: vm-bangalore-vcu
   name: vm-bangalore-cu01
-  namespace: altiostar-4g-cu01-bangalore
+  namespace: altiostar-4g-cu-bangalore
 spec:
   running: true
   template:

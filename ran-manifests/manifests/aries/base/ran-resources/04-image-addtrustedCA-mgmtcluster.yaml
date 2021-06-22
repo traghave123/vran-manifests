@@ -10,5 +10,4 @@ spec:
     name: quay-mgmtcluster-config
   registrySources:
     insecureRegistries:
-    - mgmtcluster-registry-quay-quay-enterprise.apps.mgmtcluster.altiostar.lan:443
-    - mgmtcluster-registry-quay-quay-enterprise.apps.mgmtcluster.altiostar.lan
+    - mirrorregistry.rtp.raleigh.ibm.com:5000

@@ -30,7 +30,7 @@ spec:
        key: node-role.kubernetes.io/master
        operator: Exists
   # Modify source name of the catalogsource for isolated network deployments
-    source: "vran-automation-operator-catalog"
-    sourceNamespace: openshift-marketplace
+  source: "vran-automation-operator-catalog"
+  sourceNamespace: openshift-marketplace
   name: kubevirt-hyperconverged
   channel: "stable"

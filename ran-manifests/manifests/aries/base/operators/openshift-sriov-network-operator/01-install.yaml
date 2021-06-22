@@ -25,5 +25,5 @@ spec:
   channel: "4.6"
   name: sriov-network-operator
   # Modify source name of the catalogsource for air-gapped deployments
-    source: "vran-automation-operator-catalog"
-    sourceNamespace: openshift-marketplace
+  source: "vran-automation-operator-catalog"
+  sourceNamespace: openshift-marketplace

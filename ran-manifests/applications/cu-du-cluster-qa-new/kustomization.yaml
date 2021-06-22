@@ -4,6 +4,7 @@ kind: Kustomization
 
 bases:
   - ./mysore/supermicro/du
+  - ./bangalore/dell/cu
 
 # Apps of Apps
 resources:

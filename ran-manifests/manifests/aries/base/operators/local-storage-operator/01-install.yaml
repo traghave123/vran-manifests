@@ -27,5 +27,5 @@ spec:
   installPlanApproval: Automatic
   name: local-storage-operator
   # Modify source name of the catalogsource for isolated network deployments
-    source: "vran-automation-operator-catalog"
-    sourceNamespace: openshift-marketplace
+  source: "vran-automation-operator-catalog"
+  sourceNamespace: openshift-marketplace

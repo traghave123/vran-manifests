@@ -14,6 +14,7 @@ commonAnnotations:
 
 resources:
   - 00-supermicro-worker-1-labels-job.yaml
+  - 00-supermicro-worker-2-labels-job.yaml
 
   - 00-wait-job-sa-role.yaml
   - 01-mcp-wait-job-sa-rolebinding.yaml

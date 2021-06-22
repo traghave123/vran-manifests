@@ -47,7 +47,7 @@ spec:
         node-role.kubernetes.io/ran-du-mysore-server-profile-du-dell-r640-00: ""
       containers:
         - name: ani-4g-du1
-          image: http://vran-quay-registry-quay-openshift-operators.apps.mgmtcluster.rtp.raleigh.ibm.com/olmlocal/hello-openshift:latest
+          image: vran-quay-registry-quay-openshift-operators.apps.mgmtcluster.rtp.raleigh.ibm.com/olmlocal/hello-openshift:latest
           imagePullPolicy: IfNotPresent
           command: ["bash","-c","/opt/ani/helm/entrypoint.sh","while true; do sleep 1000; done"]
           envFrom:

@@ -12,7 +12,7 @@ spec:
   destination:
     name: ''
     #namespace: ''
-    server: ''
+    server: 'https://api.aries.rtp.raleigh.ibm.com:6443'
   # Source of the application manifests
   source:
     repoURL: 'https://github.com/traghave123/vran-manifests.git'

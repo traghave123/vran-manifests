@@ -1,7 +1,7 @@
 ---
 apiVersion: v1
 data:  
-  mirrorregistry.rtp.raleigh.ibm.com..5000 |
+  mirrorregistry.rtp.raleigh.ibm.com..5000: |
     -----BEGIN CERTIFICATE-----
     MIIDpzCCAo+gAwIBAgIURpgdKSUVtXYHhhzNW5HIU/DWTDMwDQYJKoZIhvcNAQEL
     BQAwYzELMAkGA1UEBhMCSU4xCzAJBgNVBAgMAktBMQswCQYDVQQHDAJTWjENMAsG

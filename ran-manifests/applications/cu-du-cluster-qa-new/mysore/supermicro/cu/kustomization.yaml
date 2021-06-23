@@ -9,5 +9,5 @@ resources:
   - 40-cu-du-cluster-qa-new-mysore-supermicro-cu.yaml  
   - 50-cu-du-cluster-qa-new-mysore-supermicro-cu-00-pre.yaml
   - 60-cu-du-cluster-qa-new-mysore-supermicro-cu-01-post.yaml  
-  - 70-cu-du-cluster-qa-new-mysore-supermicro-cu-02-virtualization-configs.yaml
+  - 70-cu-du-cluster-qa-new-mysore-supermicro-cu-02-virt.yaml
   - 80-cu-du-cluster-qa-new-mysore-supermicro-cu-02-settings.yaml

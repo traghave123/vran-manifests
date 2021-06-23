@@ -1,0 +1,17 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: altiostar-4g-cu-mysore
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: registry-pod2-certs-mysore-cu
+  namespace: altiostar-4g-cu-mysore
+  labels:
+    app: containerized-data-importer
+type: Opaque
+data:
+  accessKeyId: ZHVtbXk=
+  secretKey:   ZHVtbXk=

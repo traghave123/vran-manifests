@@ -13,6 +13,7 @@ commonAnnotations:
 
 
 resources:
+  - 00-sos-worker-1-labels-job.yaml
   - 00-sos-worker-2-labels-job.yaml
 
   - 00-wait-job-sa-role.yaml

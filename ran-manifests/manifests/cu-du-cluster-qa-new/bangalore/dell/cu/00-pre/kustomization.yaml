@@ -13,6 +13,7 @@ commonAnnotations:
 
 
 resources:
+  - 00-hook-sos-worker-1-wait-job-bangalore.yaml
   - 00-hook-sos-worker-2-wait-job-bangalore.yaml
 
   - 00-mcp-ran-cu-bangalore-server-profile-cu-dell00.yaml

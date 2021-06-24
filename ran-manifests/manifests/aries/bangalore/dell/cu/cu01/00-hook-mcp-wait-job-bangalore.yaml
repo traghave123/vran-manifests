@@ -12,7 +12,7 @@ spec:
   template:
     spec:
       containers:
-        - image: registry.redhat.io/openshift4/ose-cli:v4.4
+        - image: mirrorregistry.rtp.raleigh.ibm.com:5000/ocp4/openshift4:4.6.16-cli
           command:
             - /bin/bash
             - -c

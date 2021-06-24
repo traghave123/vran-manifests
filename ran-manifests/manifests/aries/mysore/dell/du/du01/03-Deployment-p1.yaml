@@ -49,6 +49,7 @@ spec:
         - name: ani-4g-du1
           image: "mirrorregistry.rtp.raleigh.ibm.com:5000/olmlocal/hello-openshift:latest"
           imagePullPolicy: IfNotPresent
+#          command: ["bash","-c","/opt/ani/helm/entrypoint.sh","while true; do sleep 1000; done"]
           envFrom:
             - configMapRef:
                 name: 4glte-du-mysore-cm
@@ -84,6 +85,7 @@ spec:
               openshift.io/vran_netdevice: 2
               openshift.io/vran_netdevice_fh: 1
               openshift.io/vran_vfio: 1
+#              intel.com/intel_fec_lte: 1
               cpu: "18"
             limits:
               ephemeral-storage: 14Gi
@@ -92,6 +94,7 @@ spec:
               openshift.io/vran_netdevice: 2
               openshift.io/vran_netdevice_fh: 1
               openshift.io/vran_vfio: 1
+#              intel.com/intel_fec_lte: 1
               cpu: "18"
           securityContext:
             privileged: true

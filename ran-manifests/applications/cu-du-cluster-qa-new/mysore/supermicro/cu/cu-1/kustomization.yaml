@@ -1,0 +1,16 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+commonLabels:
+  # Each SITE_ID is a different zone
+  topology.kubernetes.io/zone: ran-cu-mysore-server-profile-cu-supermicro00
+
+commonAnnotations:
+ #argocd.argoproj.io/sync-wave: "20"
+ argocd.argoproj.io/sync-options: Prune=false
+ argocd.argoproj.io/compare-options: IgnoreExtraneous
+
+# Apps of Apps
+resources:
+  - 90-cu-du-cluster-qa-new-mysore-supermicro-cu-1.yaml

@@ -84,7 +84,7 @@ spec:
                     ems-fqdn: 10.27.5.101
                     ems-snmp-port: 162
                     oran-support: yes
-                    enb-id: 200
+                    enb-id: 3333333
                     nw-type: nw_type
                     nw-init-method: method
                     mgmt-nics: 56:90:90:01:01:01

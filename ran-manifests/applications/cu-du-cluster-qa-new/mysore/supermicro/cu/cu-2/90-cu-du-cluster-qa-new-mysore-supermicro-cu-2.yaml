@@ -12,7 +12,7 @@ spec:
   destination:
     name: ''
     #namespace: ''
-    server: 'https://api.mgmtcluster.rtp.raleigh.ibm.com:6443'
+    server: 'https://api.cu-du-cluster-qa-new.rtp.raleigh.ibm.com:6443'
   # Source of the application manifests
   source:
     repoURL: 'https://github.com/traghave123/vran-manifests.git'

@@ -1,0 +1,151 @@
+ 
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: vizag-vran-ar
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_vfio_ar
+  networkNamespace: altiostar-4g-du-vizag
+  vlan: 2002
+  ipam: |-
+    {}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: vizag-vran-fh
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_vfio
+  networkNamespace: altiostar-4g-du-vizag
+  vlan: 2001
+  ipam: |-
+    {}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: vizag-vran-mh
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_netdevice
+  networkNamespace: altiostar-4g-du-vizag
+  vlan: 806
+ 
+  ipam: |-
+    {"type": "static"}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: vizag-vran-mp
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_netdevice_fh
+  networkNamespace: altiostar-4g-du-vizag
+  vlan: 2003
+ 
+  ipam: |-
+    {"type": "static"}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: vizag-vran-mgmt
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_netdevice
+  networkNamespace: altiostar-4g-du-vizag
+  vlan: 805
+ 
+  ipam: |-
+    {"type": "static"}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: vizag-vran-bh-s1c
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_netdevice
+  networkNamespace: altiostar-4g-du-vizag
+  vlan: 803
+  ipam: |-
+    {}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: vizag-vran-bh-s1u
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_netdevice
+  networkNamespace: altiostar-4g-du-vizag
+  vlan: 804
+  ipam: |-
+    {}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+

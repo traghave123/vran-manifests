@@ -1,0 +1,190 @@
+ 
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: bangalore-vran-mp
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_vfio_fh
+  networkNamespace: altiostar-4g-cu-bangalore
+  vlan: 2003
+  ipam: |-
+    {}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: bangalore-vran-mgmt
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_vfio
+  networkNamespace: altiostar-4g-cu-bangalore
+  vlan: 805
+  ipam: |-
+    {}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: bangalore-vran-mh-a
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_vfio_a
+  networkNamespace: altiostar-4g-cu-bangalore
+  vlan: 806
+  ipam: |-
+    {}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: bangalore-vran-mh-b
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_vfio_b
+  networkNamespace: altiostar-4g-cu-bangalore
+  vlan: 806
+  ipam: |-
+    {}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: bangalore-vran-bh-s1c-a
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_vfio_a
+  networkNamespace: altiostar-4g-cu-bangalore
+  vlan: 803
+  ipam: |-
+    {}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: bangalore-vran-bh-s1c-b
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_vfio_b
+  networkNamespace: altiostar-4g-cu-bangalore
+  vlan: 803
+  ipam: |-
+    {}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: bangalore-vran-bh-s1u-a
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_vfio_a
+  networkNamespace: altiostar-4g-cu-bangalore
+  vlan: 804
+  ipam: |-
+    {}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: bangalore-vran-bh-s1u-b
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_vfio_b
+  networkNamespace: altiostar-4g-cu-bangalore
+  vlan: 804
+  ipam: |-
+    {}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+
+---
+###############################################################################
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetwork
+metadata:
+  name: bangalore-vran-bh-s1c-ng4t
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: vran_vfio
+  networkNamespace: altiostar-4g-cu-bangalore
+  vlan: 3005
+  ipam: |-
+    {}
+  linkState: auto  
+  # spoofChk: "<spoof_check>"
+  # maxTxRate: <max_tx_rate>
+  # minTxRate: <min_rx_rate>
+  # vlanQoS: <vlan_qos>
+  # trust: "<trust_vf>"
+  # capabilities: <capabilities>
+

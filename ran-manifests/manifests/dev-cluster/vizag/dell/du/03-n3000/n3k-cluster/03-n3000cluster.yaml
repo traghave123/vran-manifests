@@ -10,14 +10,14 @@ spec:
       fpga:
         - userImageURL: http://9.42.98.148/vRAN-4G-2x1x25Gx2FVL-0x0023F0050A010507_unsigned.bin
           PCIAddr: "0000:6a:00.0"
-          checksum: ""
+          checksum: "abc123"
     - nodeName: atria12
       fpga:
         - userImageURL: http://9.42.98.148/vRAN-4G-2x1x25Gx2FVL-0x0023F0050A010507_unsigned.bin
           PCIAddr: "0000:6a:00.0"
-          checksum: ""
+          checksum: "abc123"
     - nodeName: atria15
       fpga:
         - userImageURL: http://9.42.98.148/vRAN-4G-2x1x25Gx2FVL-0x0023F0050A010507_unsigned.bin
           PCIAddr: "0000:6a:00.0"
-          checksum: ""
+          checksum: "abc123"

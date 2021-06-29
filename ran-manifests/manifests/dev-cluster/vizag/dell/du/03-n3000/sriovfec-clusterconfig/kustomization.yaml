@@ -5,4 +5,4 @@ commonAnnotations:
   argocd.argoproj.io/sync-options: Prune=false
   argocd.argoproj.io/compare-options: IgnoreExtraneous 
 resources:
-  - 04-sriovfecclusterconfig-n3000
+  - 04-sriovfecclusterconfig-n3000.yaml

@@ -1,0 +1,43 @@
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  annotations:
+#    argocd.argoproj.io/sync-wave: "30"
+  name: nodes-label-job-sos-worker-2
+  namespace: argocd
+spec:
+  template:
+    spec:
+      containers:
+        - image: mirrorregistry.rtp.raleigh.ibm.com:5000/ocp4/openshift4:4.6.16-cli
+          command:
+            - /bin/bash
+            - -c
+            - |
+              export HOME=/tmp/node
+              echo ""
+              echo -n "Add node labels"
+              until oc wait --selector=node-role.kubernetes.io/ran-du-bangalore-server-profile-du-dell00='',kubernetes.io/hostname=sos-worker-2 --for=condition=ready nodes
+              do
+                echo -n "...still waiting for applying labels"
+                oc label node sos-worker-2 node-role.kubernetes.io/ran-du-bangalore-server-profile-du-dell00=""
+                oc label node sos-worker-2 ran.openshift.io/bangalore-sriov-vfio-server-profile-du-dell00=""
+                oc label node sos-worker-2 ran.openshift.io/bangalore-sriov-vfio_ar-server-profile-du-dell00=""
+                oc label node sos-worker-2 ran.openshift.io/bangalore-sriov-netdevice-server-profile-du-dell00=""
+                oc label node sos-worker-2 ran.openshift.io/bangalore-sriov-netdevice_fh-server-profile-du-dell00=""
+                oc label node sos-worker-2 ran.openshift.io/bangalore-ptp-server-profile-du-dell00=""
+                oc label node sos-worker-2 ran.openshift.io/n3k=""
+                oc label node sos-worker-2 ran.openshift.io/ptp=""
+                oc label node sos-worker-2 ran.openshift.io/sriov=""
+
+                sleep $SLEEP
+              done
+              echo "DONE"
+          imagePullPolicy: Always
+          name: nodes-label-job
+      dnsPolicy: ClusterFirst
+      restartPolicy: OnFailure
+      serviceAccount: cli-job-sa
+      serviceAccountName: cli-job-sa
+      terminationGracePeriodSeconds: 30

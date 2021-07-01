@@ -1,0 +1,71 @@
+ 
+---
+###############################################################################
+# specific resourceName for it (eg. sriov-netdevice-smci00)
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetworkNodePolicy
+metadata:
+  name: mysore-sriov-vfio-supermicro00-server-profile-cu-supermicro00
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: "vran_vfio"
+  nodeSelector:
+    ran.openshift.io/sriov: ""
+    ran.openshift.io/mysore-sriov-vfio-server-profile-cu-supermicro00: ""
+  deviceType: vfio-pci
+  priority: 10
+  #mtu: 1500
+  numVfs: 32
+  nicSelector:
+    vendor: "8086"
+    deviceID: "158b"
+    pfNames:
+          - ens2f0#24-31
+          - ens2f1#24-31
+    
+---
+###############################################################################
+# specific resourceName for it (eg. sriov-netdevice-smci00)
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetworkNodePolicy
+metadata:
+  name: mysore-sriov-a-vfio-supermicro00-server-profile-cu-supermicro00
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: "vran_vfio_a"
+  nodeSelector:
+    ran.openshift.io/sriov: ""
+    ran.openshift.io/mysore-sriov-vfio_a-server-profile-cu-supermicro00: ""
+  deviceType: vfio-pci
+  priority: 10
+  #mtu: 1500
+  numVfs: 32
+  nicSelector:
+    vendor: "8086"
+    deviceID: "158b"
+    pfNames:
+          - ens2f0#10-20
+    
+---
+###############################################################################
+# specific resourceName for it (eg. sriov-netdevice-smci00)
+apiVersion: sriovnetwork.openshift.io/v1
+kind: SriovNetworkNodePolicy
+metadata:
+  name: mysore-sriov-vfio-b-supermicro00-server-profile-cu-supermicro00
+  namespace: openshift-sriov-network-operator
+spec:
+  resourceName: "vran_vfio_b"
+  nodeSelector:
+    ran.openshift.io/sriov: ""
+    ran.openshift.io/mysore-sriov-vfio_b-server-profile-cu-supermicro00: ""
+  deviceType: vfio-pci
+  priority: 10
+  #mtu: 1500
+  numVfs: 32
+  nicSelector:
+    vendor: "8086"
+    deviceID: "158b"
+    pfNames:
+          - ens2f0#0-9
+    

@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: 4glte-du-2-bangalore-p1
+  namespace: altiostar-4g-du-bangalore
+data:
+  prov.ini:   |
+    panel-id: 22222
+    hostname: 4glte-du-bangalore-p2
+    serial-no: 4glte-du-bangalore-p2
+    mgmt-intf: net1
+    mh-intf: net2
+    mp-intf: net3
+    fh-intf: net4
+    oran-support: True
+    skip-sw-upgrade: True
+    nw-type: v4
+    ha-enabled: True
+    ar-nw-enabled: False
+    tim-pod-present: True
+    device-type: RIU-D
+    vcu-fqdn: du.test.com
+    mp-vlan-id: 2003 
+    fh-vlan-id: 2001
+    riu-vlan-id: 2001
+    initial_rtd_check: False

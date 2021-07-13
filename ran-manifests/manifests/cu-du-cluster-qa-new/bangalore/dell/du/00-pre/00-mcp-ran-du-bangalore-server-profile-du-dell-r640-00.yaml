@@ -1,0 +1,19 @@
+---
+apiVersion: machineconfiguration.openshift.io/v1
+kind: MachineConfigPool
+metadata:
+  name: ran-du-bangalore-server-profile-du-dell-r640-00
+  labels:
+    machineconfiguration.openshift.io/role: ran-du-bangalore-server-profile-du-dell-r640-00
+spec:
+  machineConfigSelector:
+    matchExpressions:
+      - {
+          key: machineconfiguration.openshift.io/role,
+          operator: In,
+          values: [worker, ran, ran-du-bangalore-server-profile-du-dell-r640-00],
+        }
+  paused: false
+  nodeSelector:
+    matchLabels:
+      node-role.kubernetes.io/ran-du-bangalore-server-profile-du-dell-r640-00: ""

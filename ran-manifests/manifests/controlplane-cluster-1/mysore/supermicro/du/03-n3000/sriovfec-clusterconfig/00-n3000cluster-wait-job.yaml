@@ -22,11 +22,11 @@ spec:
               echo -n "Waiting for the n3000cluster to be created."
               SNP_AVAILABLE=0
               sleep $SLEEP
-              until [ $SNP_AVAILABLE -ge 1 ]
-              do
-                SNP_AVAILABLE=`oc wait --for condition=flashed --timeout=60s n3000node worker-2-du -n vran-acceleration-operators"
-                sleep $SLEEP
-              done
+              #until [ $SNP_AVAILABLE -ge 1 ]
+              #do
+              #  SNP_AVAILABLE=`oc wait --for condition=flashed --timeout=60s n3000node worker-2-du -n vran-acceleration-operators"
+              #  sleep $SLEEP
+              #done
               echo "DONE"
           imagePullPolicy: Always
           name: n3000cluster-wait-job

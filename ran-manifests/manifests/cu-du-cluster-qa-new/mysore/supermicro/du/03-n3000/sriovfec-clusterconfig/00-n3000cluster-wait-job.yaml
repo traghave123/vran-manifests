@@ -22,9 +22,8 @@ spec:
               echo -n "Waiting for the n3000cluster to be created."
               SNP_AVAILABLE=0
               sleep $SLEEP
-              until [ $SNP_AVAILABLE -ge 1 ]
+              until oc wait --for condition=flashed --timeout=60s n3000node supermicro-worker-1 -n vran-acceleration-operators
               do
-                SNP_AVAILABLE=`oc wait --for condition=flashed --timeout=60s n3000node supermicro-worker-1 -n vran-acceleration-operators"
                 sleep $SLEEP
               done
               echo "DONE"

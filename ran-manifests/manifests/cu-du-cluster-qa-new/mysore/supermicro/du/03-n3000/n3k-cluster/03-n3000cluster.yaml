@@ -10,5 +10,5 @@ spec:
       fpga:
         - userImageURL: http://172.29.231.89/sr_vista_rot_4x25G-v1.3.16.bin
           PCIAddr: "0000:b6:00.0"
-          checksum: "234a08fab909609f754d21756a2c4395"
+          checksum: "6a2ec5f927a31aeeb1eac9863eb6e550"
     

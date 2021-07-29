@@ -67,6 +67,7 @@ rules:
       - fpga.intel.com
     resources:
       - n3000clusters
+      - n3000nodes
     verbs:
       - get
       - list

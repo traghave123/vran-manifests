@@ -1,0 +1,14 @@
+---
+apiVersion: fpga.intel.com/v1
+kind: N3000Cluster
+metadata:
+  name: n3000
+  namespace: vran-acceleration-operators
+spec:
+  nodes:
+    - nodeName: supermicro-worker-1
+      fpga:
+        - userImageURL: http://172.29.231.89/sr_vista_rot_4x25G-v1.3.16.bin
+          PCIAddr: "0000:b6:00.0"
+          checksum: "234a08fab909609f754d21756a2c4395"
+    

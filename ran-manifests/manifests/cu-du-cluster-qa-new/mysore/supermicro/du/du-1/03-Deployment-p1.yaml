@@ -85,7 +85,7 @@ spec:
               openshift.io/vran_netdevice: 2
               openshift.io/vran_netdevice_fh: 1
               openshift.io/vran_vfio: 1
-#              intel.com/intel_fec_lte: 1
+              intel.com/intel_fec_lte: 1
               cpu: "18"
             limits:
               ephemeral-storage: 14Gi
@@ -94,7 +94,7 @@ spec:
               openshift.io/vran_netdevice: 2
               openshift.io/vran_netdevice_fh: 1
               openshift.io/vran_vfio: 1
-#              intel.com/intel_fec_lte: 1
+              intel.com/intel_fec_lte: 1
               cpu: "18"
           securityContext:
             privileged: true

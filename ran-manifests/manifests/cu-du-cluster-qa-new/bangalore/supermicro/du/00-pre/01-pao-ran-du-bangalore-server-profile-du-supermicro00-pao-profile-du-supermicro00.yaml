@@ -15,7 +15,7 @@ spec:
       node: 0 
   numa:
     topologyPolicy: best-effort    
-  realTimeKernel:
-    enabled: true 
+  #realTimeKernel:
+  #  enabled: true 
   nodeSelector:
     node-role.kubernetes.io/ran-du-bangalore-server-profile-du-supermicro00: ""
